@@ -71,13 +71,13 @@ while run:
     i = 0
     hp_x = 300
     while i < 5:
-        window.blit(image_hp, (hp_x + i * 40, 15))  # 從 (570, 14) 繪製 image_muse 圖像在視窗上
-        window.blit(image_hp, (hp_x + i * 40, 45))  # 從 (570, 14) 繪製 image_muse 圖像在視窗上
+        window.blit(image_hp, (hp_x + i * 40, 15))  
+        window.blit(image_hp, (hp_x + i * 40, 45))  
         i += 1
     i = 0
     hpgray_x = 380
     while i < 3:
-        window.blit(image_hpgray, (hpgray_x + i * 40, 45))  # 從 (570, 14) 繪製 image_muse 圖像在視窗上
+        window.blit(image_hpgray, (hpgray_x + i * 40, 45))  
         i += 1
     # 繪製敵人及血條
     pygame.draw.rect(window, color_black, [0, 560, 80, 40])
